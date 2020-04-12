@@ -73,5 +73,5 @@ https://maven.apache.org/
   в папке target должен появтся файл testTaskWeather-0.0.1-SNAPSHOT.jar
 4) Запустить полученный файл командой: java -jar testTaskWeather-0.0.1-SNAPSHOT.jar
 5) Открыть в браузере http://0.0.0.0:8080/
-6) Пользовать программной
+6) Пользовать программой
  
