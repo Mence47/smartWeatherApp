@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <title>Умный сервис прогноза погоды</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Weather app</h1>
+        </div>
+    </header>
+
+    <section id="input-forms">
+        <div class="container">
+            <form id="city-form" action="index.html">
+                <label for="city">Введите город:</label>
+                <input type="text" id="city">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </section>
+
+    <div id="error-space">
+    </div>
+
+    <hr>
+
+    <div class="container" id="main">
+        <section id="result">
+            <h1 id="city-name"></h1>
+            <h1 id="temp"></h1>
+            <h1 id="description"></h1>
+        </section>
+        <aside id="recommendation">
+            <ul>
+                <li>Влажность: <strong id="humidity"></strong></li>
+                <li>Давление: <strong id="pressure"></strong></li>
+                <li>Ветер: <strong id="wind"></strong></li>
+            </ul>
+            <p id="recommendation-text"></p>
+
+        </aside>
+    </div>
+
+</body>
+
+<script src="js/index.js"></script>
+</html>
