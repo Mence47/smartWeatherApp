@@ -72,6 +72,6 @@ https://maven.apache.org/
   Зайти в папку с проектом и в командной строке ввести: mvn clean install
   в папке target должен появтся файл testTaskWeather-0.0.1-SNAPSHOT.jar
 4) Запустить полученный файл командой: java -jar testTaskWeather-0.0.1-SNAPSHOT.jar
-5) Открыть в браузере http://0.0.0.0:8080/
+5) Открыть в браузере http://00.00.00.00:8080/
 6) Пользовать программой
  
